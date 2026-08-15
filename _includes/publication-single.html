@@ -1,40 +1,36 @@
 {% include base_path %}
 
-<div class="publication-card">
+<div class="publication-item">
 
-  <div class="publication-card__preview">
-    {% if post.preview %}
-      <img src="{{ post.preview | relative_url }}" alt="{{ post.title }}">
-    {% endif %}
+  {% if post.preview %}
+  <div class="publication-preview">
+    <img src="{{ post.preview | relative_url }}" alt="{{ post.title }}">
   </div>
+  {% endif %}
 
-  <div class="publication-card__content">
+  <div class="publication-info">
 
-    <h2 class="publication-card__title">
+    <div class="publication-title">
       {{ post.title }}
-    </h2>
+    </div>
 
     {% if post.authors %}
-      <div class="publication-card__authors">
-        {{ post.authors | markdownify }}
-      </div>
+    <div class="publication-authors">
+      {{ post.authors | markdownify }}
+    </div>
     {% endif %}
 
-    <div class="publication-card__links">
+    <div class="publication-links">
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Paper]</a>
-      {% endif %}
-
-      {% if post.projecturl %}
-        <a href="{{ post.projecturl }}">[Project]</a>
       {% endif %}
 
       {% if post.codeurl %}
         <a href="{{ post.codeurl }}">[Code]</a>
       {% endif %}
 
-      {% if post.bibtexurl %}
-        <a href="{{ post.bibtexurl }}">[Bibtex]</a>
+      {% if post.projecturl %}
+        <a href="{{ post.projecturl }}">[Project]</a>
       {% endif %}
     </div>
 
