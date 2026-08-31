@@ -128,11 +128,6 @@
   margin: 0 0 1.2rem;
   padding: 0;
   border-bottom: none;
-
-  font-family: "Space Grotesk", "Inter", sans-serif;
-  font-size: $type-size-4;
-  font-weight: 500;
-  letter-spacing: -0.02em;
 }
 
 .research-vision {
@@ -252,8 +247,11 @@
 }
 
 /* Short bio / Selected Publications / Experiences / Educations */
-.page__content > h2 {
+.page__content > h2,
+.research-areas .section-title {
   font-family: "Space Grotesk", "Inter", sans-serif;
+  font-size: 1.25em !important;
   font-weight: 500;
+  line-height: 1.2;
   letter-spacing: -0.02em;
 }
