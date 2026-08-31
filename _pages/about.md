@@ -37,7 +37,6 @@ He received his bachelor's degree in computer science at Donghua University, Sha
 
       <div class="research-tools">
         <span>Image &amp; Video Generation</span>
-        <span>Diffusion &amp; DiT</span>
       </div>
     </div>
 
@@ -45,7 +44,7 @@ He received his bachelor's degree in computer science at Donghua University, Sha
     <div class="research-card">
       <div class="research-number">02</div>
 
-      <h3>Physics-Aware Generation</h3>
+      <h3>Physics-Informed Generation</h3>
 
       <p>
         Incorporating physical priors and dynamics into generative models
