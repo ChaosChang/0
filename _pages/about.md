@@ -12,12 +12,74 @@ Hengyuan Chang is a researcher at the Japan Advanced Institute of Science and Te
 He received his bachelor's degree in computer science at Donghua University, Shanghai, China, and his master degree in information science at JAIST, Ishikawa, JAPAN. His research lies at the intersection of image&video generation and fluid dynamics.
 
 ---
-## Research Interests
-**Image and video generation** with hand-drawn sketch guidance
+<section class="research-areas" id="research">
 
-**Physics-informed** generation
+  <h2 class="section-title">Research</h2>
 
-**Fluid data analysis**  and simulation
+  <div class="research-vision">
+    <p>
+      My research explores generative AI for modeling, controlling,
+      and understanding complex physical systems.
+    </p>
+  </div>
+
+  <div class="research-grid">
+
+    <div class="research-card">
+      <div class="research-number">01</div>
+
+      <h3>Controllable Generation</h3>
+
+      <p>
+        Developing controllable image and video generative models
+        that respond precisely to sparse, intuitive, and structured conditions.
+      </p>
+
+      <div class="research-tools">
+        <span>Image &amp; Video Generation</span>
+        <span>Diffusion &amp; DiT</span>
+      </div>
+    </div>
+
+
+    <div class="research-card">
+      <div class="research-number">02</div>
+
+      <h3>Physics-Aware Generation</h3>
+
+      <p>
+        Incorporating physical priors and dynamics into generative models
+        to improve temporal consistency, interpretability,
+        and physical plausibility.
+      </p>
+
+      <div class="research-tools">
+        <span>Physics-Informed Learning</span>
+        <span>Physical Constraints</span>
+      </div>
+    </div>
+
+
+    <div class="research-card">
+      <div class="research-number">03</div>
+
+      <h3>Learning Physical Dynamics</h3>
+
+      <p>
+        Learning spatiotemporal representations and dynamics
+        from simulation data for complex fluid
+        and coupled physical systems.
+      </p>
+
+      <div class="research-tools">
+        <span>Fluid Dynamics</span>
+        <span>Scientific Machine Learning</span>
+      </div>
+    </div>
+
+  </div>
+
+</section>
 
 ---
 ## Selected Publications
