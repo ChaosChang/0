@@ -237,3 +237,22 @@
     min-height: auto;
   }
 }
+
+/* ================================
+   Homepage headings
+   ================================ */
+
+/* "Profile" */
+.page__title {
+  //font-family: "Space Grotesk", "Inter", sans-serif;
+  //font-weight: 500;
+  //letter-spacing: -0.02em;
+  display: none;
+}
+
+/* Short bio / Selected Publications / Experiences / Educations */
+.page__content > h2 {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
