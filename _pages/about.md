@@ -37,6 +37,7 @@ He received his bachelor's degree in computer science at Donghua University, Sha
 
       <div class="research-tools">
         <span>Image &amp; Video Generation</span>
+        <span>U-Net &amp; Diffusion Transformer</span>
       </div>
     </div>
 
