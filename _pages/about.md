@@ -18,8 +18,7 @@ He received his bachelor's degree in computer science at Donghua University, Sha
 
   <div class="research-vision">
     <p>
-      My research explores generative AI for modeling, controlling,
-      and understanding complex physical systems.
+      My research explores controllable generative models, physics-informed learning, and spatiotemporal representation learning for image and video generation.
     </p>
   </div>
 
